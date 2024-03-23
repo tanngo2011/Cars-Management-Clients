@@ -1,0 +1,66 @@
+/* Phần CSS này được tham khảo rất nhiều từ bài frontend basic của anh Khoa */
+
+.john {
+    min-height: 100vh;
+    margin-bottom: 20px;
+}
+
+
+/* CSS cho footer */
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    background-color: black;
+    box-sizing: border-box;
+    padding: 30px;
+    color: white;
+    
+}
+
+
+
+
+/* CSS cho Modal (trong trình duyệt: bấm f12, xem phần CSS để tìm kiếm các thuộc tính của Modal cần CSS lại*/
+.modal-backdrop {
+    background-color: #CCCED0;
+    opacity: 0.9; /* thuộc tính opacity dùng để set up độ trong suốt */
+}
+
+
+
+
+/* CSS cho Component Pagination của Thư viện Ant Design*/
+#pagination {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+
+
+
+/* CSS cho grid của Component CardHome */
+.grid {
+    display: grid;
+    /* Tìm hiểu về repeat() sau (đây là một thuộc tính đi kèm của Grid) */
+    grid-template-columns: repeat(auto-fill, 200px);
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: space-around;
+}
+
+
+
+
+
+div#login-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+div#login-item {
+    width: 500px;
+}
